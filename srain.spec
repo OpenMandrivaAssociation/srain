@@ -42,7 +42,7 @@ Modern IRC client written in GTK
 %find_lang %{name}
 
 %files -f %{name}.lang
-%doc README.rst doc/*
+%doc README.rst %{_datadir}/doc/*
 %license LICENSE
 %{_bindir}/%{name}
 %{_datadir}/%{name}/
@@ -50,3 +50,4 @@ Modern IRC client written in GTK
 %{_datadir}/icons/hicolor/*/*/*.png
 %{_metainfodir}/*.xml
 %{_sysconfdir}/%{name}
+%{_mandir}/man1/srain.1.*
