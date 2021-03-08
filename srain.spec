@@ -43,7 +43,7 @@ Modern IRC client written in GTK
 
 %files -f %{name}.lang
 %doc README.rst
-%{_datadir}/doc/srain/html/*
+%{_datadir}/doc/srain/html/
 %license LICENSE
 %{_bindir}/%{name}
 %{_datadir}/%{name}/
