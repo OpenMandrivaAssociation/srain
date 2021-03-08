@@ -14,6 +14,7 @@ BuildRequires:  pkgconfig(libconfig)
 BuildRequires:  pkgconfig(libsecret-1)
 BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(openssl)
+BuildRequires:  python3dist(sphinx)
  
 Requires:       hicolor-icon-theme
 
