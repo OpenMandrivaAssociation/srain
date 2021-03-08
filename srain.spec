@@ -42,7 +42,8 @@ Modern IRC client written in GTK
 %find_lang %{name}
 
 %files -f %{name}.lang
-%doc README.rst /doc/*
+%doc README.rst
+%{_datadir}/doc/srain/html/*
 %license LICENSE
 %{_bindir}/%{name}
 %{_datadir}/%{name}/
