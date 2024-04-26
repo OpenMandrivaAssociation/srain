@@ -1,5 +1,5 @@
 Name:           srain
-Version:        1.6.0
+Version:        1.7.0
 Release:        1
 Summary:        Modern IRC client written in GTK+ 3
 License:        GPLv3+, GPLv2+ and BSD
@@ -18,7 +18,7 @@ BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libconfig)
 BuildRequires:  pkgconfig(libsecret-1)
-BuildRequires:  pkgconfig(libsoup-2.4)
+BuildRequires:  pkgconfig(libsoup-3.0)
 BuildRequires:  pkgconfig(ayatana-appindicator3-0.1)
 BuildRequires:  pkgconfig(openssl)
 BuildRequires:  python3dist(sphinx)
@@ -34,7 +34,6 @@ Modern IRC client written in GTK
  
 %build
 %meson
-
 %meson_build
 
 %install
