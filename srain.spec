@@ -1,5 +1,5 @@
 Name:           srain
-Version:        1.8.0
+Version:        1.8.1
 Release:        1
 Summary:        Modern IRC client written in GTK+ 3
 License:        GPLv3+, GPLv2+ and BSD
